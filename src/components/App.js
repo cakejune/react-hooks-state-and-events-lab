@@ -18,7 +18,7 @@ function App() {
     <div className={trueState ? "App red" : "App dark"}>
       <header>
         <h2>Shopster</h2>
-        <button onClick={turnSwitch}>Dark Mode</button>
+        <button onClick={turnSwitch}>{trueState ? "Light Mode" : "Dark Mode"}</button>
       </header>
       <ShoppingList items={itemData} />
     </div>

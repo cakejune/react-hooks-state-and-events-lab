@@ -3,7 +3,6 @@ import { useState } from "react";
 
 function Item({ name, category }) {
   const [initialState, changeState] = useState(false);
-  console.log(initialState);
   function moveItem() {
     changeState(!initialState);
   }
