@@ -44,6 +44,13 @@ span[role="image"] {
   transition: all 0.3s;
 }
 
+.App.red{
+  --font-color: rgb(255, 255, 255);
+  --background: rgb(245, 111, 111);
+  --background--light: rgb(80, 80, 80);
+  transition: all 0.3s;
+}
+
 .App {
   margin: 2rem auto;
   padding: 1rem 2rem;
