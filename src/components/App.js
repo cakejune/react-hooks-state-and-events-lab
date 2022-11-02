@@ -1,6 +1,5 @@
 import React from "react";
 import { useState } from "react";
-// import Item from "./items";
 import ShoppingList from "./ShoppingList";
 import itemData from "../data/items";
 
@@ -10,7 +9,6 @@ function App() {
 
   const [trueState, setState] = useState(true);
   // const appClass = !trueState ? "App dark" : "App light";
-  console.log(trueState);
 
   function turnSwitch() {
     setState(!trueState);
